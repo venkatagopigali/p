@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import streamlit as st
 from sklearn.metrics import accuracy_score
-data=pd.read_excel(r"C:\Users\hp\Downloads\my.xlsx")
+data=pd.read_excel(r"my.xlsx")
 st.title("heart disease prediction :")
 # print(data.columns)
 X=data[['age', 'cp', 'trestbps', 'chol', 'thalach', 'exang','oldpeak']]
